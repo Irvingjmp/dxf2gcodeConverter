@@ -5,8 +5,6 @@ Este proyecto presenta una herramienta especializada en la conversión de archiv
 
 La singularidad de la máquina, que utiliza un alambre móvil de un lado a otro, impide el uso de generadores de G-code convencionales. A diferencia de otras máquinas que pueden levantar o retirar la herramienta para moverse libremente, esta máquina en particular requería un enfoque diferente para evitar cortes en el centro que arruinarían el proceso completo.
 
-Este código se comparte con la comunidad para ayudar a aquellos que trabajan en proyectos de CNC similares, proporcionando una guía detallada sobre cómo generar código G teniendo en cuenta las limitaciones específicas de la máquina.
-
 La herramienta permite cargar un archivo DXF, especificar dimensiones, es decir, un área determinada, y ajustar parámetros de empaquetado como la separación entre cortes. Posteriormente, genera un archivo G-code listo para ser utilizado en la máquina CNC diseñada para este propósito.
 
 ## Características
@@ -32,7 +30,5 @@ La herramienta permite cargar un archivo DXF, especificar dimensiones, es decir,
 ![Vista previa de la aplicación](screenshots/screenshot2.png)
 ![Ejemplo de G-code generado](screenshots/screenshot3.png)
 ![Ejemplo de G-code generado](screenshots/screenshot4.png)
-## Contribuciones
-Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una mejora, ¡no dudes en abrir un problema o enviar un pull request!
 
 
